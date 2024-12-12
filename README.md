@@ -1,29 +1,5 @@
 # Image Retrieval: Vision and Language Representation Learning
 
-Please cite the following if you use this code. Code and pre-trained models for [12-in-1: Multi-Task Vision and Language Representation Learning](http://openaccess.thecvf.com/content_CVPR_2020/html/Lu_12-in-1_Multi-Task_Vision_and_Language_Representation_Learning_CVPR_2020_paper.html):
-
-```
-@InProceedings{Lu_2020_CVPR,
-author = {Lu, Jiasen and Goswami, Vedanuj and Rohrbach, Marcus and Parikh, Devi and Lee, Stefan},
-title = {12-in-1: Multi-Task Vision and Language Representation Learning},
-booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2020}
-}
-```
-
-and [ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265):
-
-```
-@inproceedings{lu2019vilbert,
-  title={Vilbert: Pretraining task-agnostic visiolinguistic representations for vision-and-language tasks},
-  author={Lu, Jiasen and Batra, Dhruv and Parikh, Devi and Lee, Stefan},
-  booktitle={Advances in Neural Information Processing Systems},
-  pages={13--23},
-  year={2019}
-}
-```
-
 ## Repository Setup
 
 1. Create a fresh conda environment, and install all dependencies.
@@ -73,6 +49,30 @@ python train_tasks.py --bert_model bert-base-uncased --from_pretrained <pretrain
 
 ```
 python train_tasks.py --bert_model bert-base-uncased --from_pretrained <multi_task_model_path> --config_file config/bert_base_6layer_6conect.json --tasks 19 --lr_scheduler 'warmup_linear' --train_iter_gap 4 --task_specific_tokens --save_name flickr8k_finetuned
+```
+
+Please cite the following if you use this code. Code and pre-trained models for [12-in-1: Multi-Task Vision and Language Representation Learning](http://openaccess.thecvf.com/content_CVPR_2020/html/Lu_12-in-1_Multi-Task_Vision_and_Language_Representation_Learning_CVPR_2020_paper.html):
+
+```
+@InProceedings{Lu_2020_CVPR,
+author = {Lu, Jiasen and Goswami, Vedanuj and Rohrbach, Marcus and Parikh, Devi and Lee, Stefan},
+title = {12-in-1: Multi-Task Vision and Language Representation Learning},
+booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+month = {June},
+year = {2020}
+}
+```
+
+and [ViLBERT: Pretraining Task-Agnostic Visiolinguistic Representations for Vision-and-Language Tasks](https://arxiv.org/abs/1908.02265):
+
+```
+@inproceedings{lu2019vilbert,
+  title={Vilbert: Pretraining task-agnostic visiolinguistic representations for vision-and-language tasks},
+  author={Lu, Jiasen and Batra, Dhruv and Parikh, Devi and Lee, Stefan},
+  booktitle={Advances in Neural Information Processing Systems},
+  pages={13--23},
+  year={2019}
+}
 ```
  
 ## License
