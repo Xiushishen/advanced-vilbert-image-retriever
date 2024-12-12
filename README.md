@@ -6,7 +6,7 @@ This repository presents an advanced and refined version of VILBERT with the fol
   - Recommended: Python 3.8+
 - **PyTorch Support**: 
   - Minimum: PyTorch 1.x
-  - Recommended: PyTorch 2.x
+  - Recommended: PyTorch 2.1
 - **CUDA Compatibility**: 
   - Minimum: CUDA 10.x 
   - Recommended: CUDA 11.4
@@ -26,7 +26,7 @@ This repository presents an advanced and refined version of VILBERT with the fol
 
 - Recommended:
   - Python 3.8+
-  - PyTorch 2.x
+  - PyTorch 2.1
   - CUDA 11.4
 ## Repository Setup
 
