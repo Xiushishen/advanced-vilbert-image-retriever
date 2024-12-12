@@ -52,7 +52,7 @@ python setup.py develop
 
 Check `README.md` under `data` for more details.  
 
-## Visiolinguistic Pre-training and Multi Task Training
+## Visiolinguistic Pre-training and Image Retrieval Training
 
 
 
