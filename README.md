@@ -54,13 +54,6 @@ Check `README.md` under `data` for more details.
 
 ## Visiolinguistic Pre-training and Multi Task Training
 
-### Pretraining on Conceptual Captions
-
-```
-python train_concap.py --bert_model bert-base-uncased --config_file config/bert_base_6layer_6conect.json --train_batch_size 512 --objective 1 --file_path <path_to_extracted_cc_features>
-```
-[Download link](https://dl.fbaipublicfiles.com/vilbert-multi-task/pretrained_model.bin)
-
 ### Multi-task Training
 
 ```
