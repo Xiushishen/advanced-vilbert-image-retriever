@@ -1,25 +1,33 @@
 # Image Retrieval: Vision and Language Representation Learning
 ## Project Overview
-
 This repository presents an advanced and refined version of VILBERT with the following key features:
-
-- **Python Compatibility**: Fully compatible with Python 3.8+
-- **PyTorch Support**: Optimized for PyTorch 2.x
+- **Python Compatibility**: 
+  - Minimum: Python 3.6+ 
+  - Recommended: Python 3.8+
+- **PyTorch Support**: 
+  - Minimum: PyTorch 1.x
+  - Recommended: PyTorch 2.x
+- **CUDA Compatibility**: 
+  - Minimum: CUDA 10.x 
+  - Recommended: CUDA 11.4
 - **Edge Device Deployment**: Seamless deployment on NVIDIA Jetson series
-- **CUDA Compatibility**: Supports CUDA version 11.4
 
 ## Key Highlights
-
-- Enhanced multi-modal learning capabilities
-- Improved performance for image retrieval tasks
+- Compatible with Flickr8k and other datasets instead of Flickr30k only
+- Improved performance for image retrieval task
 - Optimized for both research and production environments
 
 ## System Requirements
+- Minimum:
+  - Python 3.6+
+  - PyTorch 1.x
+  - CUDA 10.x
+  - NVIDIA Jetson Series (Optional)
 
-- Python 3.6+
-- PyTorch 1.x 2.x
-- CUDA 10.x / 11.x
-- NVIDIA Jetson Series (Optional)
+- Recommended:
+  - Python 3.8+
+  - PyTorch 2.x
+  - CUDA 11.4
 ## Repository Setup
 
 1. Create a fresh conda environment, and install all dependencies.
