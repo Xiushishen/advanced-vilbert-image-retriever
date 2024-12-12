@@ -16,9 +16,9 @@ This repository presents an advanced and refined version of VILBERT with the fol
 
 ## System Requirements
 
-- Python 3.8+
-- PyTorch 2.x
-- CUDA 11.4
+- Python 3.6+
+- PyTorch 1.x 2.x
+- CUDA 10.x / 11.x
 - NVIDIA Jetson Series (Optional)
 ## Repository Setup
 
