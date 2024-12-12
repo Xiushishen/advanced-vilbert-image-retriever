@@ -1,1 +1,0 @@
-# Advanced-VILBERT-Image-Retriever
