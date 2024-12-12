@@ -56,6 +56,12 @@ python setup.py develop
 
 Check `README.md` under `data` for more details.  
 
+## Work on Colab
+Please check out the notebook file below for more details
+```
+advanced-vilbert-image-retriever.ipynb
+```
+
 ## Visiolinguistic Pre-training and Image Retrieval Training
 
 ### Image-Retrieval Evaluation
